@@ -80,7 +80,7 @@ width: 100%;
 
 #flag {
   animation-name: bounce;
-  animation-duration: 6s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   position: absolute;
 }
