@@ -1,0 +1,86 @@
+h1 {
+  color: #63a5b2;
+  font-size: 48px;
+}
+
+html {
+  cursor: url(unicornsm.png), auto;
+}
+
+a:hover {
+  cursor: url(unicornsm.png), auto;
+}
+
+body {
+  font-family: 'Nerko One', cursive;
+  height: 100vh;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+#unicorn {
+  background-color: magenta;
+  width: 30vw;
+  opacity: 0.3;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  text-align: center;
+  transition-property: all;
+  transition-duration: 3s;
+}
+
+#unicorn:hover {
+  background-color: green;
+  opacity: 1.0;
+}
+
+#bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#content {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+color: white;
+width: 100%;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+    right: 1500px;
+    opacity: 0.0;
+  }
+  50% {
+    right: 0px;
+    opacity: 0.5;
+  }
+  100% {
+    top: 800px;
+    right: 0px;
+    opacity: 1.0;
+  }
+}
+
+#flag {
+  animation-name: bounce;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
